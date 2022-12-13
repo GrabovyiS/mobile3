@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xs"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_xs"
+        android:background="@drawable/background_light"
+        android:paddingStart="@dimen/margin_m"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbarLayout">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/card_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_s"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user1"
+            android:background="@color/opaque"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ImageView.Round"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:textColor="@color/black_main"
+            android:id="@+id/card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_m"
+            android:layout_marginTop="@dimen/margin_xs_plus"
+            android:text="@string/card_one_title"
+            android:textAppearance="@style/main_text"
+            app:layout_constraintStart_toEndOf="@+id/card_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/card_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_m"
+            android:text="@string/card_one_subtext"
+            android:textAppearance="@style/subtext"
+            app:layout_constraintStart_toEndOf="@+id/card_img"
+            app:layout_constraintTop_toBottomOf="@+id/card_title" />
+
+        <TextView
+            android:id="@+id/card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_m_plusplus"
+            android:layout_marginEnd="@dimen/margin_m"
+            android:text="@string/card_one_text"
+            android:textAppearance="@style/main_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_img" />
+
+        <TextView
+            android:id="@+id/card_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xs"
+            android:text="@string/male"
+            android:textAppearance="@style/replies"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_text" />
+
+        <ImageButton
+            android:id="@+id/card_thumb_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxs"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_marginBottom="@dimen/margin_s"
+            android:background="@color/opaque"
+            android:src="@drawable/like"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

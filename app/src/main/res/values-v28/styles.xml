@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textFontWeight">
+            500
+        </item>
+        <item name="android:textColor">
+            @color/black_main
+        </item>
+    </style>
+
+    <style name="main_text">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:textFontWeight">
+            400
+        </item>
+        <item name="android:lineSpacingExtra">
+            2sp
+        </item>
+        <item name="android:textColor">
+            @color/black_main
+        </item>
+    </style>
+
+    <style name="subtext">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textFontWeight">
+            400
+        </item>
+        <item name="android:lineSpacingExtra">
+            2sp
+        </item>
+        <item name="android:textColor">
+            @color/grey_subtext
+        </item>
+    </style>
+
+    <style name="replies">
+        <item name="android:textSize">
+            10sp
+        </item>
+        <item name="android:textFontWeight">
+            500
+        </item>
+        <item name="android:lineSpacingExtra">
+            1sp
+        </item>
+        <item name="android:textColor">
+            @color/blue
+        </item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="ImageView.Round" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

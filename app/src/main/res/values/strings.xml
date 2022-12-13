@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mobile1</string>
+    <string name="title">Личности</string>
+    <string name="account_button">Account</string>
+    <string name="card_one_title">Roman Kamushken</string>
+    <string name="card_two_title">Tina Turbina</string>
+    <string name="card_three_title">Tomek Kuwalskij</string>
+    <string name="card_one_subtext">2 days ago</string>
+    <string name="card_two_subtext">18 minutes ago</string>
+    <string name="card_three_subtext">2 days ago</string>
+    <string name="card_one_text">Check out awesome updates for Android design kit for Figma. Now more screens and more categories.</string>
+    <string name="card_two_text">“into component container and with resizing constraints set????”</string>
+    <string name="card_three_text">“into component container and with resizing constraints set????”</string>
+    <string name="replies">117 REPLAYS</string>
+    <string name="male">МУЖЧИНА</string>
+</resources>
